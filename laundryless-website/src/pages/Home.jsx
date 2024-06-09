@@ -1,12 +1,22 @@
+import React from "react";
 import "./Home.css";
-import Navbar from "./../components/Navbar";
-import Footer from "./../components/Footer";
+import heroSectionImg from "../assets/imgs/ideogram9.png";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to My Laundry Service</h1>
-      <p>Your convenient laundry pickup and delivery solution.</p>
+    <div className="heroSection">
+      <img src={heroSectionImg} alt="Hero" className="heroSectionImg" />
+      <div className="heroText">
+        <h1 className="title">The Future of Laundry Is Here</h1>
+        <p className="paragraph">
+          Taking Service Delivery to the Next Level with Wash and Fold,
+          Laundered Shirts, Bedding, and Clothing Alterations—Available 24/7
+          Right at Your Doorstep!
+        </p>
+        <a href="/signup">
+          <button className="Btn">Create an Account</button>
+        </a>
+      </div>
     </div>
   );
 };

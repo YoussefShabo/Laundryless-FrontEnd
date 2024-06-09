@@ -1,40 +1,120 @@
 :root {
     --Black: #282A28;
-    --Grey1:#272A2C;
-    --Grey2:#363E44;
-    --Grey3:#454E54;
-    --Grey4:#687B8D;
-    --Grey5:#919FA9;  
-    --Grey6:#D9D9D9;
-    --Grey7:#FAF9F4;
-    --Blue1:#2D3447;
-    --Blue2:#226E98;
-    --Blue3:#19C9EF;
-    --Red:#d64143;
-    --Logo:#FF5C58;
+    --Grey1: #272A2C;
+    --Grey2: #363E44;
+    --Grey3: #454E54;
+    --Grey4: #687B8D;
+    --Grey5: #919FA9;  
+    --Grey6: #D9D9D9;
+    --Grey7: #FAF9F4;
+    --Blue1: #2D3447;
+    --Blue2: #226E98;
+    --Blue3: #19C9EF;
+    --Red: #d64143;
+    --Logo: #FF5C58;
     --lime-green: #A1DC97;
     --darkerlime-green: #7AD46E;
     --teal1: #5D9F9E;
     --teal2: #177776;
     --teal3: #32A4AA;
   }
-nav{
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--Black);
+    margin: 0;
+  }
+  
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
-    background-color: var(--Black);
+    background-color: transparent;
     color: var(--Grey6);
-}
-.logo{
-
-}
-ul{
+    height: 80px;
+    width: 100vw;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+  }
+  
+  nav.scrolled {
+    background-color: var(--Black);
+  }
+  
+  ul {
     display: flex;
-
-}
-li{
+  }
+  
+  li {
     list-style: none;
     margin: 0 16px;
+  }
+  
+  li a {
     text-decoration: none;
-}
+    color: var(--Grey6);
+  }
+  
+  li a:hover {
+    color: var(--teal1); 
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--Grey6);
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  nav{
+    padding: 0 20px;
+  }
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--Black);
+      position: absolute;
+      top: 80px;
+      left: 0;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    li {
+      margin: 16px 0;
+    }
+  
+    li a {
+      color: var(--Grey7);
+      padding: 10px;
+      display: block;
+      text-align: center;
+    }
+  }
+  
