@@ -1,0 +1,55 @@
+:root {
+    --Black: #282A28;
+    --Grey1: #272A2C;
+    --Grey2: #363E44;
+    --Grey3: #454E54;
+    --Grey4: #687B8D;
+    --Grey5: #919FA9;  
+    --Grey6: #D9D9D9;
+    --Grey7: #FAF9F4;
+    --Blue1: #2D3447;
+    --Blue2: #226E98;
+    --Blue3: #19C9EF;
+    --Red: #d64143;
+    --Logo: #FF5C58;
+    --lime-green: #A1DC97;
+    --darkerlime-green: #7AD46E;
+    --teal1: #5D9F9E;
+    --teal2: #177776;
+    --teal3: #32A4AA;
+  }
+  .titleSection {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .title{
+    margin-bottom: 0;
+    font-size: 24pt;
+    color: var(--Grey2);
+  }
+  .subTitle{
+    margin-top: 0;
+    color: var(--Grey2);
+  }
+  .text{
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--Grey2);
+  }
+  .text p{
+    margin-left: 48px;
+  }
+  .subText{
+    font-size: 9pt;
+    color: var(--Grey5);
+  }
+  .stepBox{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+  }
+  .stepImg{
+    width: 30vw;
+    margin: 2%;
+    object-fit: cover;
+  }
