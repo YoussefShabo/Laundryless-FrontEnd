@@ -18,7 +18,9 @@
     --teal2: #177776;
     --teal3: #32A4AA;
   }
-  
+  .nav{
+    overflow: hidden;
+  }
   body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);

@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className="nav">
       <div className="logo">
         <img src={Name} alt="Name" style={{ height: "40px" }} />{" "}
         <img src={Logo} alt="Logo" style={{ height: "40px" }} />{" "}

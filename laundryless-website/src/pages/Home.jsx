@@ -6,7 +6,7 @@ import threeColumnTshirts from "../assets/imgs/ideogram11.png";
 
 const Home = () => {
   return (
-    <>
+    <div className="home">
       <div className="heroSection">
         <img src={heroSectionImg} alt="Hero" className="heroSectionImg" />
         <div className="heroText">
@@ -29,7 +29,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="visoionSection">
+      <div className="visionSection">
         <br />
         <br />
         <br />
@@ -38,7 +38,7 @@ const Home = () => {
         <br />
         <hr />
         <br />
-        <p>VISION</p>
+        <p className="vision">VISION</p>
         <h1 className="titleText">
           Redefining Laundry,
           <br />
@@ -67,7 +67,7 @@ const Home = () => {
         <br />
         <hr />
         <br />
-        <p>OUR SERVICE</p>
+        <p className="vision">OUR SERVICE</p>
         <h1 className="titleText">
           Completely Self-Sufficient, <br />
           Absolutely Eco-Friendly!
@@ -75,12 +75,12 @@ const Home = () => {
         <div className="container">
           <div className="textSection">
             <p>OPTIMIZED FOR EFFICIENCY</p>
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div className="serviceData">
               <h2>24 - 48 hr</h2>
               <h4>Standard service</h4>
             </div>
             <hr />
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div className="serviceData">
               <h2>same-day delivery</h2>
               <h4>Expediated service</h4>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
           <img src={threeColumnTshirts} alt="" className="halfVWphoto" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
