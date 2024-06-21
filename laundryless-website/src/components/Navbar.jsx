@@ -27,9 +27,12 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
-    <nav className="nav">
+    <nav className={`nav ${isMenuOpen ? "menu-open" : ""}`}>
       <div className="logo">
         <img src={Name} alt="Name" style={{ height: "40px" }} />{" "}
         <img src={Logo} alt="Logo" style={{ height: "40px" }} />{" "}
@@ -37,23 +40,26 @@ const Navbar = () => {
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <Link to="/" onClick={toggleMenu}>
+            <Link to="/" onClick={closeMenu}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={toggleMenu}>
+            <Link to="/about" onClick={closeMenu}>
               About
             </Link>
           </li>
           <li>
-            <Link to="/how-it-works" onClick={toggleMenu}>
+            <Link to="/how-it-works" onClick={closeMenu}>
               How It Works
             </Link>
           </li>
         </ul>
       </div>
-      <div className="hamburger" onClick={toggleMenu}>
+      <div
+        className={`hamburger ${isMenuOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+      >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>

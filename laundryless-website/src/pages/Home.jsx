@@ -12,7 +12,7 @@ const Home = () => {
         <div className="heroText">
           <br />
           <br />
-          <h1 className="title">The Future of Laundry Is Here</h1>
+          <h1 className="heroTitle">The Future of Laundry Is Here</h1>
           <br />
           <br />
           <p className="paragraph">
@@ -79,7 +79,7 @@ const Home = () => {
               <h2>24 - 48 hr</h2>
               <h4>Standard service</h4>
             </div>
-            <hr />
+            <hr style={{ width: "80%" }} />
             <div className="serviceData">
               <h2>same-day delivery</h2>
               <h4>Expediated service</h4>

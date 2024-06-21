@@ -18,15 +18,17 @@
     --teal2: #177776;
     --teal3: #32A4AA;
   }
-  .nav{
-    overflow: hidden;
-  }
   body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--Black);
     margin: 0;
   }
+  
+  .nav{
+    overflow: hidden;
+  }
+
   
   nav {
     display: flex;
@@ -48,7 +50,9 @@
   nav.scrolled {
     background-color: var(--Black);
   }
-  
+  .logo {
+    z-index: 101;
+  }
   ul {
     display: flex;
   }
@@ -61,6 +65,7 @@
   li a {
     text-decoration: none;
     color: var(--Grey6);
+    transition: color 0.3s ease;
   }
   
   li a:hover {
@@ -71,6 +76,7 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
+    z-index: 101;
   }
   
   .bar {
@@ -102,7 +108,35 @@
     .menu.open {
       display: flex;
     }
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
   
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-9px, -6px);
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--Black);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease-in-out;
+      z-index: 100;
+    }
+    .menu.open {
+      transform: translateY(0);
+    }
     ul {
       flex-direction: column;
       width: 100%;
