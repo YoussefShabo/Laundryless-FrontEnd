@@ -1,4 +1,6 @@
 import "./Footer.css";
+
+// Test for Rony
 const Footer = () => {
   return (
     <footer className="footer">
