@@ -1,0 +1,8 @@
+.introSection, .storySection, .missionSection, .valuesSection, .contactSection{
+    margin: 160px 160px;
+}
+.heroSectionImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
