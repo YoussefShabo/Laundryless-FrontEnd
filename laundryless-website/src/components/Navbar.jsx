@@ -54,6 +54,11 @@ const Navbar = () => {
               How It Works
             </Link>
           </li>
+          <li>
+            <Link to="/faq" onClick={closeMenu}>
+              FAQ
+            </Link>
+          </li>
         </ul>
       </div>
       <div
