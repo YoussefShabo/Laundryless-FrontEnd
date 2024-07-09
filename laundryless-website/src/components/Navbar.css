@@ -60,11 +60,13 @@
   li {
     list-style: none;
     margin: 0 16px;
+
   }
+
   
   li a {
     text-decoration: none;
-    color: var(--Grey6);
+    color: white;
     transition: color 0.3s ease;
   }
   

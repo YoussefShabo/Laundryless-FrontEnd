@@ -20,6 +20,11 @@ const Faq = () => {
         "When you create an account in the app or online, your payment details are stored securely online with our credit card processor. Your card on file will be charged before delivery. You are able to view your receipt in your app or in your web portal. To view our full price list, please visit the pricing section of this website.",
     },
     {
+      question: "What is the price for the Laundryless service?",
+      answer:
+        "The price is $2.9/lb for the Standard service and $3.9/lb for the Expedited service",
+    },
+    {
       question:
         "How do I make special requests for my order or use your alterations service?",
       answer:
@@ -44,16 +49,6 @@ const Faq = () => {
       question: "How do I track my order?",
       answer:
         "You can track your order by logging into your account and viewing your order history.",
-    },
-    {
-      question: "Can I purchase items in bulk?",
-      answer:
-        "Yes, we offer bulk purchasing options. Please contact our sales team for more details.",
-    },
-    {
-      question: "What payment methods do you accept?",
-      answer:
-        "We accept Visa, MasterCard, American Express, Discover, and PayPal.",
     },
     {
       question: "Do you offer customer support?",

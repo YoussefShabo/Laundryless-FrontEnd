@@ -1,13 +1,17 @@
+body{
+  background-color: #d5d5d5;
+}
 .faq {
     width: 80%;
     margin: auto;
     max-width: 800px;
-    font-family: Arial, sans-serif;
+    height: 75vh;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   .faq h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 280px 0 80px 0;
   }
   
   .faq-questions {
@@ -25,11 +29,14 @@
     cursor: pointer;
     padding: 10px;
     background: #f9f9f9;
+    font-size: 14pt;
   }
   
   .faq-answer {
     padding: 10px;
     background: #fff;
+    font-size: 12pt;
+    color: #878787;
   }
   
   .faq-icon {
