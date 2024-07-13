@@ -1,25 +1,44 @@
+:root {
+  --Black: #282A28;
+  --Grey1: #272A2C;
+  --Grey2: #363E44;
+  --Grey3: #454E54;
+  --Grey4: #687B8D;
+  --Grey5: #919FA9;  
+  --Grey6: #d5d5d5;
+  --Grey7: #FAF9F4;
+  --Blue1: #2D3447;
+  --Blue2: #226E98;
+  --Blue3: #19C9EF;
+  --Red: #d64143;
+  --Logo: #FF5C58;
+  --lime-green: #A1DC97;
+  --darkerlime-green: #7AD46E;
+  --teal1: #5D9F9E;
+  --teal2: #177776;
+  --teal3: #32A4AA;
+}
 body{
-  background-color: #d5d5d5;
+  background-color: var(--Grey6);
 }
 .faq {
-    width: 80%;
+    width: 80vw;
     margin: auto;
     max-width: 800px;
-    height: 75vh;
     font-family: 'Space Grotesk', sans-serif;
   }
   
   .faq h1 {
     text-align: center;
-    margin: 280px 0 80px 0;
+    margin: 180px 0 80px 0;
   }
   
   .faq-questions {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--Blue3);
   }
   
   .faq-item {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--Grey2);
     padding: 10px 0;
   }
   
@@ -42,4 +61,7 @@ body{
   .faq-icon {
     font-size: 24px;
   }
-  
+  .contact{
+    margin: 0;
+    width: 100%;
+  }

@@ -65,7 +65,7 @@ const Home = () => {
         <br />
         <br />
         <br />
-        <hr />
+        <hr className="aboutHr" />
         <br />
         <p className="vision">OUR SERVICE</p>
         <h1 className="titleText">

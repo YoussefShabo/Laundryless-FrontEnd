@@ -23,6 +23,7 @@
     background-color: var(--background-color);
     color: var(--Black);
     margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   .nav{
@@ -68,6 +69,7 @@
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
+    font-size: 16pt;
   }
   
   li a:hover {
@@ -84,7 +86,7 @@
   .bar {
     width: 25px;
     height: 3px;
-    background-color: var(--Grey6);
+    background-color: white;
     margin: 4px 0;
     transition: 0.4s;
   }

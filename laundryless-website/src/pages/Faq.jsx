@@ -75,6 +75,22 @@ const Faq = () => {
           </div>
         ))}
       </div>
+      <div className="contact">
+        <br />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <center>
+          <h2>Contact Us</h2>
+          <p className="faqParagraph">
+            Have questions or need assistance? Our friendly team is here to
+            help. Reach out to us at support@laundryless.com or call us at (614)
+            772-8263.
+          </p>
+        </center>
+      </div>
+      <div className="foot" style={{ height: "10vh" }}></div>
     </div>
   );
 };
