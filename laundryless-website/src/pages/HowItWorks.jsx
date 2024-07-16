@@ -3,7 +3,12 @@ import stepOne from "../assets/imgs/01-Process.webp";
 import stepTwo from "../assets/imgs/02-Process.webp";
 import stepThree from "../assets/imgs/03-Process.webp";
 import name from "../assets/imgs/inLineNameGrey.svg";
-
+import screen1 from "../assets/imgs/1.webp";
+import screen2 from "../assets/imgs/2.webp";
+import screen3 from "../assets/imgs/3.webp";
+import screen4 from "../assets/imgs/4.webp";
+import screen5 from "../assets/imgs/5.webp";
+import screen6 from "../assets/imgs/6.webp";
 const HowItWorks = () => {
   return (
     <>
@@ -64,6 +69,16 @@ const HowItWorks = () => {
             alt="woman on phone recieving a notification"
             className="stepImg"
           />
+        </div>
+      </div>
+      <div className="appSection">
+        <div className="screenshots">
+          <img className="screenshot" src={screen1} alt="" />
+          <img className="screenshot" src={screen2} alt="" />
+          <img className="screenshot" src={screen3} alt="" />
+          <img className="screenshot" src={screen4} alt="" />
+          <img className="screenshot" src={screen5} alt="" />
+          <img className="screenshot" src={screen6} alt="" />
         </div>
       </div>
     </>
