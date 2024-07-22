@@ -72,6 +72,9 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className="appSection">
+        <center>
+          <p className="CCtext">How To Place an Order</p>
+        </center>
         <div className="screenshots">
           <img className="screenshot" src={screen1} alt="" />
           <img className="screenshot" src={screen2} alt="" />
@@ -81,6 +84,7 @@ const HowItWorks = () => {
           <img className="screenshot" src={screen6} alt="" />
         </div>
       </div>
+      <div className="foot" style={{ height: "10vh" }}></div>
     </>
   );
 };
