@@ -3,6 +3,15 @@ import "./About.css";
 import about from "../assets/imgs/about.jpg";
 import hanged from "../assets/imgs/ideogram15.png";
 import foldedShirts from "../assets/imgs/ideogram16.png";
+import locker1 from "../assets/imgs/lis.webp";
+import locker2 from "../assets/imgs/y1.webp";
+import locker3 from "../assets/imgs/y2.webp";
+import lockersWall from "../assets/imgs/4lockers.png";
+import lockersDims from "../assets/imgs/lockersdims.webp";
+import decalLocker1 from "../assets/imgs/lockers1.webp";
+import decalLocker2 from "../assets/imgs/lockers2.webp";
+import decalLocker3 from "../assets/imgs/lockers3.webp";
+import decalLocker4 from "../assets/imgs/lockers4.webp";
 
 const About = () => {
   return (
@@ -130,6 +139,85 @@ const About = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr className="aboutHr" />
+        <br />
+        <center>
+          <div className="container1">
+            <div className="lockersContainer">
+              <div className="lockerBox">
+                <h2>Our Lockers</h2>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <p className="paragraph">
+                  Our robust lockers and locks are meticulously designed to
+                  efficiently handle a diverse array of dry cleaning and laundry
+                  orders. Constructed with longevity in mind, they boast an
+                  impressive lifespan of over 15 years, ensuring reliable
+                  performance and durability for extensive use in various
+                  settings.
+                </p>
+              </div>
+              <img
+                src={locker1}
+                alt="Multi-Purpose Laundry Locker"
+                className="lockerImg"
+              />
+              <div className="lockers">
+                <div className="lockerNtext">
+                  <img
+                    src={locker2}
+                    alt="Wash and Fold Locker (3 Doors)"
+                    className="lockerImg"
+                  />
+                  <h3>Wash and Fold Locker (3 Doors)</h3>
+                  <p className="width500">
+                    The wash and fold locker is designed to suit wash and fold
+                    laundry orders specifically.
+                  </p>
+                </div>
+
+                <div className="lockerNtext">
+                  <img
+                    src={locker3}
+                    alt="Long Garment Locker (2 Doors)"
+                    className="lockerImg"
+                  />
+                  <h3>Long Garment Locker (2 Doors)</h3>
+                  <p className="width500">
+                    The long garment locker is suitable for longer garments like
+                    evening gowns and long winter coats.
+                  </p>
+                </div>
+              </div>
+              <img src={lockersWall} alt="" className="bigLockerImg" />
+              <img src={lockersDims} alt="" className="bigLockerImg" />
+            </div>
+          </div>
+          <br />
+
+          <h2>LOCKER DECALS</h2>
+
+          <p className="width500">
+            Locker decals can be customised to suit your buildings aesthetics.
+          </p>
+        </center>
+        <center>
+          <img src={decalLocker1} alt="" className="width500" />
+          <img src={decalLocker2} alt="" className="width500" />
+          <img src={decalLocker3} alt="" className="width500" />
+          <img src={decalLocker4} alt="" className="width500" />
+        </center>
         <center>
           <div className="contactSection">
             <br />
@@ -151,6 +239,7 @@ const About = () => {
           </div>
         </center>
       </div>
+
       <div className="foot" style={{ height: "10vh" }}></div>
     </div>
   );
