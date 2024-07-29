@@ -85,8 +85,8 @@ const Faq = () => {
           <h2>Contact Us</h2>
           <p className="faqParagraph">
             Have questions or need assistance? Our friendly team is here to
-            help. Reach out to us at support@laundryless.com or call us at (614)
-            772-8263.
+            help. Reach out to us at laundrylessinfo@gmail.com or call us at
+            (512) 814-7675.
           </p>
         </center>
       </div>

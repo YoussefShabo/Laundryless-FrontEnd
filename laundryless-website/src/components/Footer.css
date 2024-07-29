@@ -1,3 +1,9 @@
-.footer{
+.footer {
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40px;
+    width: 60vw;
+    margin: 0 20vw;
 }
