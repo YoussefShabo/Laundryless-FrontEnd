@@ -54,13 +54,13 @@
     justify-content: center;
     align-items: center;
 }
-.lockerImg{
+.lockerImg, .feats{
     height: 500px;
     margin-top: 80px;
 }
 .bigLockerImg{
     margin-top: 180px;
-width: 30vw;
+    width: 30vw;
 }
 .lockerBox{
     display: flex;
@@ -78,7 +78,7 @@ width: 30vw;
     margin-top: 80px;
 }
 .width500{
-    width: 500px;
+    max-width: 500px;
 }
 @media (max-width: 768px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
@@ -97,5 +97,24 @@ width: 30vw;
     }
     .storyImg{
         width: 100vw;
+    }
+    .lockerImg{
+        max-height: 50vh;
+
+    }
+    .width500{
+        max-width: 400px;
+    }
+    .lockers{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .feats{
+        max-width: 400px;
+    }
+    .bigLockerImg{
+        margin-top: 80px;
+        width: 90vw;
     }
 }

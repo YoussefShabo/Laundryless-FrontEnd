@@ -171,7 +171,7 @@ const About = () => {
               <img
                 src={locker1}
                 alt="Multi-Purpose Laundry Locker"
-                className="lockerImg"
+                className="feats"
               />
               <div className="lockers">
                 <div className="lockerNtext">
