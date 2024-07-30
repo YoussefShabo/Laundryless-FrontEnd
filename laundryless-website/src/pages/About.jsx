@@ -29,11 +29,7 @@ const About = () => {
             </p>
           </center>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+
         <br />
         <br />
         <div className="container1">
@@ -53,9 +49,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <br />
-            <br />
-            <br />
+
             <br />
             <div className="missionSection">
               {/* <img src={serviceImage} alt="Our Service" className="missionImg" /> */}
@@ -72,16 +66,14 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <br />
-            <br />
+
             <br />
             <br />
           </div>
           <img src={foldedShirts} alt="folded shirts" className="storyImg" />
         </div>
         <br />
-        <br />
-        <br />
+
         <br />
         <br />
         <br />
@@ -91,9 +83,7 @@ const About = () => {
         <center>
           <h2>Our Values</h2>
         </center>
-        <br />
-        <br />
-        <br />
+
         <br />
         <br />
         <br />

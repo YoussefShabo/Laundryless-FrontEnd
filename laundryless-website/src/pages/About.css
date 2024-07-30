@@ -83,8 +83,8 @@
 @media (max-width: 768px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
         height: auto;
-        width: 100%;
-        margin: 0px;
+        width: 95%;
+        margin: 2.5%;
         padding: 0;
         overflow: hidden;
         flex-direction: column;
@@ -111,7 +111,8 @@
         margin-top: 80px;
     }
     .feats{
-        max-width: 400px;
+        max-width: 85vw;
+        height: auto;
     }
     .bigLockerImg{
         margin-top: 80px;
