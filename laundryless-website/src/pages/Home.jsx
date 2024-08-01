@@ -86,7 +86,7 @@ const Home = () => {
             </div>
             <p className="containerTxt">
               Welcome to a new era of laundry service, where convenience meets
-              sustainability. At Denim & Linen, we understand that time is
+              sustainability. At Laundryless ATX, we understand that time is
               precious. That's why we offer standard delivery within 24-48 hours
               and an expedited service for those times when you just can't
               wait—same day delivery is at your fingertips. Rooted in our
@@ -94,7 +94,7 @@ const Home = () => {
               Eco-Friendly,' every aspect of our service—from our
               energy-efficient cleaning processes to our eco-friendly
               packaging—is designed with the well-being of our planet in mind.
-              Experience the future of laundry with Denim & Linen, where every
+              Experience the future of laundry with Laundryless ATX, where every
               delivery is a step towards a greener world.
             </p>
           </div>
