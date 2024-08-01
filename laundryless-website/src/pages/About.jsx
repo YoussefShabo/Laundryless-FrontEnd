@@ -37,7 +37,7 @@ const About = () => {
             <div className="storySection">
               <div className="textSection">
                 <h2>Our Story</h2>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   Welcome to Laundryless, a women-owned business proudly based
                   in the vibrant city of Austin, Texas. Our journey began with a
                   simple idea: to transform the mundane chore of laundry into a
@@ -55,7 +55,7 @@ const About = () => {
               {/* <img src={serviceImage} alt="Our Service" className="missionImg" /> */}
               <div className="textSection">
                 <h2>Our Mission</h2>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   At Laundryless, our mission is to redefine convenience in
                   laundry services while championing sustainability. We aim to
                   provide our customers with fast, reliable, and eco-friendly
@@ -94,7 +94,7 @@ const About = () => {
             <div className="valuesContainer">
               <div className="valueBox">
                 <h3>Quality</h3>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   We believe in delivering excellence in every aspect of our
                   service. From the moment we pick up your laundry to the moment
                   it's delivered back to you, we ensure the highest standards of
@@ -103,7 +103,7 @@ const About = () => {
               </div>
               <div className="valueBox">
                 <h3>Sustainability</h3>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   Our commitment to the environment is unwavering. We use
                   energy-efficient cleaning processes and eco-friendly packaging
                   to minimize our carbon footprint, striving to make a positive
@@ -112,7 +112,7 @@ const About = () => {
               </div>
               <div className="valueBox">
                 <h3>Community</h3>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   As a local business, we are deeply rooted in the Austin
                   community. We take pride in supporting local initiatives and
                   building strong relationships with our customers and partners.
@@ -120,7 +120,7 @@ const About = () => {
               </div>
               <div className="valueBox">
                 <h3>Convenience</h3>
-                <p className="paragraph">
+                <p className="C1paragraph">
                   Your time is valuable. Our services are designed to be as
                   convenient as possible, offering flexible scheduling, easy
                   online ordering, and timely deliveries to fit your busy life.
@@ -149,7 +149,7 @@ const About = () => {
                 <br />
                 <br />
                 <br />
-                <p className="paragraph">
+                <p className="C1paragraph">
                   Our robust lockers and locks are meticulously designed to
                   efficiently handle a diverse array of dry cleaning and laundry
                   orders. Constructed with longevity in mind, they boast an
@@ -218,13 +218,14 @@ const About = () => {
             <br />
             <br />
             <br />
-            <hr className="aboutHr" />
+
             <br />
             <h2>Contact Us</h2>
-            <p className="paragraph">
+            <p className="C1paragraph">
               Have questions or need assistance? Our friendly team is here to
-              help. Reach out to us at support@laundryless.com or call us at
-              (614) 772-8263.
+              help. <br />
+              Reach out to us at laundrylessinfo@gmail.com <br />
+              or call us at (512) 814-7675.
             </p>
           </div>
         </center>

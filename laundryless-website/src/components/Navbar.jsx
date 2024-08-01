@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../assets/imgs/Group 360.svg";
-import Name from "../assets/imgs/Group 361.svg";
+import Logo from "../assets/imgs/logoWhite.png";
+import Name from "../assets/imgs/nameWhite.png";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
