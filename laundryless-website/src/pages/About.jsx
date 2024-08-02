@@ -190,8 +190,10 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <img src={lockersWall} alt="" className="bigLockerImg" />
-              <img src={lockersDims} alt="" className="bigLockerImg" />
+              <div className="bigLockers">
+                <img src={lockersWall} alt="" className="bigLockerImg" />
+                <img src={lockersDims} alt="" className="bigLockerImg" />
+              </div>
             </div>
           </div>
           <br />

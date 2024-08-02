@@ -58,9 +58,15 @@
     height: 500px;
     margin-top: 80px;
 }
+.bigLockers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
 .bigLockerImg{
-    margin-top: 180px;
-    width: 30vw;
+    max-height: 500px;
+    margin: 20px;
+
 }
 .lockerBox{
     display: flex;
@@ -79,6 +85,7 @@
 }
 .width500{
     max-width: 500px;
+    margin: 20px;
 }
 @media (max-width: 768px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
@@ -113,6 +120,11 @@
     .feats{
         max-width: 85vw;
         height: auto;
+    }
+    .bigLockers{
+        display: flex;
+flex-direction: column;
+        margin-top: 100px;
     }
     .bigLockerImg{
         margin-top: 80px;
