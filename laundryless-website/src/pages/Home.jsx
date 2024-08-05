@@ -46,14 +46,14 @@ const Home = () => {
         </h1>
         <div className="container">
           <p className="containerTxt">
-            At Laundryless, our vision is to redefine convenience and quality in
-            laundry services. We aspire to transform everyday chores into a
-            seamless experience, providing our customers with fast, reliable,
-            and eco-friendly laundry solutions. By delivering personalized care
-            for your garments right to your doorstep, we aim to save you time
-            and hassle, so you can focus on what matters most. Trust us to keep
-            your denim crisp and your linens fresh, empowering you to look and
-            feel your best every day.
+            At Laundryless ATX, our vision is to redefine convenience and
+            quality in laundry services. We aspire to transform everyday chores
+            into a seamless experience, providing our customers with fast,
+            reliable, and eco-friendly laundry solutions. By delivering
+            personalized care for your garments right to your doorstep, we aim
+            to save you time and hassle, so you can focus on what matters most.
+            Trust us to keep your denim crisp and your linens fresh, empowering
+            you to look and feel your best every day.
           </p>
           <img src={denimshirts} alt="" className="halfVWphoto" />
         </div>

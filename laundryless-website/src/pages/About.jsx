@@ -38,14 +38,14 @@ const About = () => {
               <div className="textSection">
                 <h2>Our Story</h2>
                 <p className="C1paragraph">
-                  Welcome to Laundryless, a women-owned business proudly based
-                  in the vibrant city of Austin, Texas. Our journey began with a
-                  simple idea: to transform the mundane chore of laundry into a
-                  convenient, reliable, and eco-friendly service that fits
-                  seamlessly into your busy lifestyle. Over the years, we've
-                  grown into a trusted partner for households and businesses
-                  alike, offering personalized care for your garments with the
-                  utmost dedication and professionalism.
+                  Welcome to Laundryless ATX, a women-owned business proudly
+                  based in the vibrant city of Austin, Texas. Our journey began
+                  with a simple idea: to transform the mundane chore of laundry
+                  into a convenient, reliable, and eco-friendly service that
+                  fits seamlessly into your busy lifestyle. Over the years,
+                  we've grown into a trusted partner for households and
+                  businesses alike, offering personalized care for your garments
+                  with the utmost dedication and professionalism.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ const About = () => {
               <div className="textSection">
                 <h2>Our Mission</h2>
                 <p className="C1paragraph">
-                  At Laundryless, our mission is to redefine convenience in
+                  At Laundryless ATX, our mission is to redefine convenience in
                   laundry services while championing sustainability. We aim to
                   provide our customers with fast, reliable, and eco-friendly
                   solutions, allowing you to focus on what truly matters. By

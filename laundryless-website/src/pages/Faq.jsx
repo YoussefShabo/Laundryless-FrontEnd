@@ -20,7 +20,7 @@ const Faq = () => {
         "When you create an account in the app or online, your payment details are stored securely online with our credit card processor. Your card on file will be charged before delivery. You are able to view your receipt in your app or in your web portal. To view our full price list, please visit the pricing section of this website.",
     },
     {
-      question: "What is the price for the Laundryless service?",
+      question: "What is the price for the Laundryless ATX service?",
       answer:
         "The price is $2.9/lb for the Standard service and $3.9/lb for the Expedited service",
     },
@@ -31,7 +31,7 @@ const Faq = () => {
         "If you have any special requests or alterations, please include details in your order in the app or in the notes section online. Please place all alterations in the Blue Tote Bag.",
     },
     {
-      question: "What is the LAUNDRYLESS VIP Bag Kit?",
+      question: "What is the LAUNDRYLESS ATX VIP Bag Kit?",
       answer:
         "You will receive a Laundry Collection kit free of charge with your first order. The LAUNDRY LESS  VIP Bags protect your garments and keeps them in pristine condition. Use this bag with every order ($10 replacement fee applies).",
     },

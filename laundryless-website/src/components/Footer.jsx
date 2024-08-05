@@ -8,7 +8,7 @@ const Footer = () => {
       <hr style={{ width: "90vw" }} />
       <div className="footer">
         <img src={logo} alt="" style={{ height: "120px" }} />
-        <p>© 2024 Laundryless Services. All rights reserved.</p>
+        <p>© 2024 LaundrylessATX Services. All rights reserved.</p>
         <div>
           <a href="mailto:laundrylessinfo@gmail.com">
             laundrylessinfo@gmail.com
