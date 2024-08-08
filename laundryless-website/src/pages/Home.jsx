@@ -27,7 +27,7 @@ const Home = () => {
           <a href="">
             <button className="Btn">
               <a
-                style={{ textDecoration: "none", color: "#272A2C" }}
+                style={{ textDecoration: "none", color: "#687B8D" }}
                 href="mailto:laundrylessinfo@gmail.com"
               >
                 Contact Us for more info
