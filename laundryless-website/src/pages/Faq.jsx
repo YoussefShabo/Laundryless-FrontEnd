@@ -33,7 +33,7 @@ const Faq = () => {
     {
       question: "What is the LAUNDRYLESS ATX VIP Bag Kit?",
       answer:
-        "You will receive a 20lb LAUNDRYLESS  VIP Bag free of charge with your first order. The LAUNDRYLESS  VIP Bags protect your garments and keeps them in pristine condition. Use this bag with every order.",
+        "You will receive a 20lb LAUNDRYLESS VIP Bag free of charge with your first order. The LAUNDRYLESS  VIP Bags protect your garments and keeps them in pristine condition. Use this bag with every order.",
     },
     {
       question: "What areas do you service?",
