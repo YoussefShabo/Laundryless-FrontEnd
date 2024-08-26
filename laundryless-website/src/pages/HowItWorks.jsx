@@ -30,8 +30,8 @@ const HowItWorks = () => {
           <div className="text">
             <h1>01. DROP OFF YOUR LAUNDRY</h1>
             <p>
-              Create an account HERE and lock dry cleaning or laundry in any
-              unlocked locker.
+              Create an account and lock dry cleaning or laundry in any unlocked
+              locker.
             </p>
           </div>
           <img
