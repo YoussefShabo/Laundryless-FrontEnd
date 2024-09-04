@@ -17,7 +17,7 @@ const Home = () => {
           <br />
           <p className="paragraph">
             Taking Service Delivery to the Next Level with Wash and Fold,
-            Laundered Shirts, Bedding, and Clothing Alterations—Available 24/7
+            Laundered Shirts, Dry cleaning, Bedding, and Clothing Alterations—Available 24/7
             Right at Your Doorstep!
           </p>
           <br />
