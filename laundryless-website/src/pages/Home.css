@@ -54,7 +54,7 @@ h4 {
 }
 
 .paragraph {
-  width: 50vw;
+  width: 20vw;
   font-size: 14pt;
   margin: 0 80px;
 }
@@ -117,7 +117,6 @@ h4 {
   min-height: 60vh;
   font-family: 'Space Grotesk', sans-serif;
   color: var(--Grey2);
-  background-color: var(--Grey7);
 }
 
 .serviceData {
@@ -189,7 +188,7 @@ h4 {
       width: 90vw;
       margin: auto;
       padding-bottom: 10%;
-      text-align: justify;
+
   }
 
   .halfVWphoto {

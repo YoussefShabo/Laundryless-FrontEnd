@@ -46,10 +46,27 @@
   .stepBox{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 10%;
   }
   .stepImg{
     width: 30vw;
     margin: 2%;
     object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .screenshots{
+    display: flex;
+    margin-left: 8vw;
+  }
+  .screenshot{
+    width: 10vw;
+    margin: 0 2vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .CCtext{
+    font-size: 28pt;
+    font-weight: 900;
   }

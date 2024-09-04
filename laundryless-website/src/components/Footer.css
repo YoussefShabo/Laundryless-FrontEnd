@@ -1,3 +1,25 @@
-.footer{
-    overflow: hidden;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 70vw;
+    margin: 20px 15vw;
+}
+.round1{
+    margin: 10px 0;
+}
+@media (min-width: 769px) and (max-width: 970px) {
+    .footer{
+        width: 95vw;
+        margin: 20px 2.5vw;
+    }
+}
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        width: 95vw;
+        margin: 20px 2.5vw;
+        height: auto;
+    }
 }

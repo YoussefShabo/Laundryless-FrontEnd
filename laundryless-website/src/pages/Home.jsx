@@ -25,7 +25,14 @@ const Home = () => {
           <br />
           <br />
           <a href="">
-            <button className="Btn">Create an Account</button>
+            <button className="Btn">
+              <a
+                style={{ textDecoration: "none", color: "#687B8D" }}
+                href="mailto:laundrylessinfo@gmail.com"
+              >
+                Contact Us for more info
+              </a>
+            </button>
           </a>
         </div>
       </div>
@@ -46,14 +53,14 @@ const Home = () => {
         </h1>
         <div className="container">
           <p className="containerTxt">
-            At Laundryless, our vision is to redefine convenience and quality in
-            laundry services. We aspire to transform everyday chores into a
-            seamless experience, providing our customers with fast, reliable,
-            and eco-friendly laundry solutions. By delivering personalized care
-            for your garments right to your doorstep, we aim to save you time
-            and hassle, so you can focus on what matters most. Trust us to keep
-            your denim crisp and your linens fresh, empowering you to look and
-            feel your best every day.
+            At Laundryless ATX, our vision is to redefine convenience and
+            quality in laundry services. We aspire to transform everyday chores
+            into a seamless experience, providing our customers with fast,
+            reliable, and eco-friendly laundry solutions. By delivering
+            personalized care for your garments right to your doorstep, we aim
+            to save you time and hassle, so you can focus on what matters most.
+            Trust us to keep your denim crisp and your linens fresh, empowering
+            you to look and feel your best every day.
           </p>
           <img src={denimshirts} alt="" className="halfVWphoto" />
         </div>
@@ -65,7 +72,7 @@ const Home = () => {
         <br />
         <br />
         <br />
-        <hr />
+        <hr className="aboutHr" />
         <br />
         <p className="vision">OUR SERVICE</p>
         <h1 className="titleText">
@@ -86,7 +93,7 @@ const Home = () => {
             </div>
             <p className="containerTxt">
               Welcome to a new era of laundry service, where convenience meets
-              sustainability. At Denim & Linen, we understand that time is
+              sustainability. At Laundryless ATX, we understand that time is
               precious. That's why we offer standard delivery within 24-48 hours
               and an expedited service for those times when you just can't
               wait—same day delivery is at your fingertips. Rooted in our
@@ -94,7 +101,7 @@ const Home = () => {
               Eco-Friendly,' every aspect of our service—from our
               energy-efficient cleaning processes to our eco-friendly
               packaging—is designed with the well-being of our planet in mind.
-              Experience the future of laundry with Denim & Linen, where every
+              Experience the future of laundry with Laundryless ATX, where every
               delivery is a step towards a greener world.
             </p>
           </div>

@@ -1,0 +1,133 @@
+:root {
+    --Black: #282A28;
+    --Grey1: #272A2C;
+    --Grey2: #363E44;
+    --Grey3: #454E54;
+    --Grey4: #687B8D;
+    --Grey5: #919FA9;  
+    --Grey6: #D9D9D9;
+    --Grey7: #FAF9F4;
+    --Blue1: #2D3447;
+    --Blue2: #226E98;
+    --Blue3: #19C9EF;
+    --Red: #d64143;
+    --Logo: #FF5C58;
+    --lime-green: #A1DC97;
+    --darkerlime-green: #7AD46E;
+    --teal1: #5D9F9E;
+    --teal2: #177776;
+    --teal3: #32A4AA;
+  }
+  .about{
+    overflow: hidden;
+}
+.aboutHr{
+    width: 90vw;
+    color: var(--Grey2);
+    border: 1px solid var(--Grey2);
+}
+.introSection, .storySection, .missionSection, .valuesSection, .contactSection{
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+.storyImg{
+    width: 500px;
+}
+.paragraphAbout{
+    width: 100vw;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    width: 76vw;
+    margin: 0 auto;
+}
+.valueBox{
+    padding: 0 24px;
+}
+.contactSection{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lockerImg, .feats{
+    height: 500px;
+    margin-top: 80px;
+}
+.bigLockers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.bigLockerImg{
+    max-height: 500px;
+    margin: 20px;
+
+}
+.lockerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.lockersContainer{
+    width: 100%;
+}
+.lockers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.width500{
+    max-width: 500px;
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
+        height: auto;
+        width: 95%;
+        margin: 2.5%;
+        padding: 0;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .container1{
+    flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .storyImg{
+        width: 100vw;
+    }
+    .lockerImg{
+        max-height: 50vh;
+
+    }
+    .width500{
+        max-width: 400px;
+    }
+    .lockers{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .feats{
+        max-width: 85vw;
+        height: auto;
+    }
+    .bigLockers{
+        display: flex;
+flex-direction: column;
+        margin-top: 100px;
+    }
+    .bigLockerImg{
+        margin-top: 80px;
+        width: 90vw;
+    }
+}
