@@ -87,6 +87,18 @@
     max-width: 500px;
     margin: 20px;
 }
+.width501{
+    width: 500px;
+    height: 800px;
+    margin: 20px;
+    object-fit: cover;
+}
+.centerAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
 @media (max-width: 768px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
         height: auto;

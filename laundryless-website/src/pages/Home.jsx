@@ -3,6 +3,8 @@ import "./Home.css";
 import heroSectionImg from "../assets/imgs/ideogram9.png";
 import denimshirts from "../assets/imgs/ideogram1.png";
 import threeColumnTshirts from "../assets/imgs/ideogram11.png";
+import customerLockers1 from "../assets/imgs/Clientlockers.png";
+import customerLockers2 from "../assets/imgs/Clientlockers2.png";
 
 const Home = () => {
   return (
@@ -17,8 +19,8 @@ const Home = () => {
           <br />
           <p className="paragraph">
             Taking Service Delivery to the Next Level with Wash and Fold,
-            Laundered Shirts, Dry cleaning, Bedding, and Clothing Alterations—Available 24/7
-            Right at Your Doorstep!
+            Laundered Shirts, Dry cleaning, Bedding, and Clothing
+            Alterations—Available 24/7 Right at Your Doorstep!
           </p>
           <br />
           <br />
@@ -62,7 +64,7 @@ const Home = () => {
             Trust us to keep your denim crisp and your linens fresh, empowering
             you to look and feel your best every day.
           </p>
-          <img src={denimshirts} alt="" className="halfVWphoto" />
+          <img src={customerLockers2} alt="" className="halfVWphoto" />
         </div>
       </div>
       <div className="serviceSection">
@@ -105,7 +107,7 @@ const Home = () => {
               delivery is a step towards a greener world.
             </p>
           </div>
-          <img src={threeColumnTshirts} alt="" className="halfVWphoto" />
+          <img src={customerLockers1} alt="" className="halfVWphoto" />
         </div>
       </div>
     </div>

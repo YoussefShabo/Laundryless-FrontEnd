@@ -12,6 +12,10 @@ import decalLocker1 from "../assets/imgs/lockers1.webp";
 import decalLocker2 from "../assets/imgs/lockers2.webp";
 import decalLocker3 from "../assets/imgs/lockers3.webp";
 import decalLocker4 from "../assets/imgs/lockers4.webp";
+import example1 from "../assets/imgs/The Speedy Bubble.jpeg";
+import example2 from "../assets/imgs/neighborhoodcleaners_img1.jpg";
+import example3 from "../assets/imgs/neighborhoodcleaners_img2.jpg";
+import example4 from "../assets/imgs/Washed Again 1.jpg";
 
 const About = () => {
   return (
@@ -210,6 +214,14 @@ const About = () => {
           <img src={decalLocker3} alt="" className="width500" />
           <img src={decalLocker4} alt="" className="width500" />
         </center>
+
+        <center className="centerAlign">
+          <img src={example1} alt="" className="width501" />
+          <img src={example2} alt="" className="width501" />
+          <img src={example3} alt="" className="width501" />
+          <img src={example4} alt="" className="width501" />
+        </center>
+
         <center>
           <div className="contactSection">
             <br />
