@@ -64,7 +64,8 @@
     margin-top: 100px;
 }
 .bigLockerImg{
-    max-height: 500px;
+    width: 500px;
+    height: 500px;
     margin: 20px;
 
 }
@@ -95,11 +96,12 @@
 }
 .centerAlign{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 240px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1700px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
         height: auto;
         width: 95%;
@@ -124,6 +126,9 @@
     .width500{
         max-width: 400px;
     }
+    .width501{
+        max-width: 400px;
+    }
     .lockers{
         display: flex;
         flex-direction: column;
@@ -140,6 +145,9 @@ flex-direction: column;
     }
     .bigLockerImg{
         margin-top: 80px;
-        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        height: 100%;
     }
 }
