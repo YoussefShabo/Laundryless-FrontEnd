@@ -22,7 +22,7 @@ const Faq = () => {
     {
       question: "What is the price for the Laundryless ATX service?",
       answer:
-        "The price is $2/lb for the Standard service and $2.50/lb for the Expedited service",
+        "The price is $2.99/lb for the Standard service and $3.99/lb for the Expedited service",
     },
     {
       question:
