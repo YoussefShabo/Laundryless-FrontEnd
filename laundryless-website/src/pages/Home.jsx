@@ -91,7 +91,7 @@ const Home = () => {
             <hr style={{ width: "80%" }} />
             <div className="serviceData">
               <h2>same-day delivery</h2>
-              <h4>Expediated service</h4>
+              <h4>Expedited service</h4>
             </div>
             <p className="containerTxt">
               Welcome to a new era of laundry service, where convenience meets
