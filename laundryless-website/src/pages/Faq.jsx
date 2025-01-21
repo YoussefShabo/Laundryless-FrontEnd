@@ -53,7 +53,7 @@ const Faq = () => {
     {
       question: "Do you offer customer support?",
       answer:
-        "Yes, our customer support team is available 24/7 via email and phone at laundrylessinfo@gmail.com or call us at (512) 814-7675.",
+        "Yes, our customer support team is available 24/7 via email and phone at info@laundrylessatx.com or call us at (512) 814-7675.",
     },
   ];
 
@@ -85,8 +85,8 @@ const Faq = () => {
           <h2>Contact Us</h2>
           <p className="faqParagraph">
             Have questions or need assistance? Our friendly team is here to
-            help. Reach out to us at laundrylessinfo@gmail.com or call us at
-            (512) 814-7675.
+            help. Reach out to us at info@laundrylessatx.com or call us at (512)
+            814-7675.
           </p>
         </center>
       </div>

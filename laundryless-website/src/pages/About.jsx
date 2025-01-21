@@ -238,7 +238,7 @@ const About = () => {
             <p className="C1paragraph">
               Have questions or need assistance? Our friendly team is here to
               help. <br />
-              Reach out to us at laundrylessinfo@gmail.com <br />
+              Reach out to us at info@laundrylessatx.com <br />
               or call us at (512) 814-7675.
             </p>
           </div>
