@@ -14,7 +14,7 @@ const Footer = () => {
 
         <div className="AAA">
           <center>
-            <p>Proud member of:</p>
+            <p>Proud members of:</p>
             <img
               src={aaa}
               alt=""
