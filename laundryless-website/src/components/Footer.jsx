@@ -13,7 +13,7 @@ const Footer = () => {
         <img src={logo} alt="" style={{ height: "120px" }} />
 
         <div className="AAA">
-          <center>
+          {/* <center>
             <p>Proud members of:</p>
             <img
               src={aaa}
@@ -30,7 +30,7 @@ const Footer = () => {
               alt=""
               style={{ height: "60px", marginRight: "70px" }}
             />
-          </center>
+          </center> */}
         </div>
         <div>
           <a href="mailto:info@laundrylessatx.com">info@laundrylessatx.com</a>
