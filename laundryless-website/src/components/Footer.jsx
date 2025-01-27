@@ -13,29 +13,23 @@ const Footer = () => {
         <img src={logo} alt="" style={{ height: "120px" }} />
 
         <div className="AAA">
-          {/* <center>
-            <p>Proud members of:</p>
-            <img
-              src={aaa}
-              alt=""
-              style={{ height: "60px", marginRight: "70px" }}
-            />
-            <img
-              src={taa}
-              alt=""
-              style={{ height: "60px", marginRight: "70px" }}
-            />
-            <img
-              src={naa}
-              alt=""
-              style={{ height: "60px", marginRight: "70px" }}
-            />
-          </center> */}
+          <center>
+            <h5 style={{ margin: "0px" }}>Proud members of:</h5>
+            <img src={aaa} alt="" style={{ height: "80px", margin: "15px" }} />
+            <img src={taa} alt="" style={{ height: "80px", margin: "15px" }} />
+            <img src={naa} alt="" style={{ height: "80px", margin: "15px" }} />
+          </center>
         </div>
         <div>
-          <a href="mailto:info@laundrylessatx.com">info@laundrylessatx.com</a>
-          <p className="round1">(512) 814-7675</p>
-          <p>© 2025 LaundrylessATX Services. All rights reserved.</p>
+          <h5 className="round1">
+            e-mail:
+            <a href="mailto:info@laundrylessatx.com">
+              {" "}
+              info@laundrylessatx.com
+            </a>
+            <br /> tel: (512) 814-7675
+            <br /> © 2025 LaundrylessATX Services. All rights reserved.
+          </h5>
         </div>
       </div>
     </>
