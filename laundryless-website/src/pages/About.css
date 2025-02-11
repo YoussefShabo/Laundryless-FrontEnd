@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 .aboutHr{
-    width: 90vw;
+    width: 64vw;
     color: var(--Grey2);
     border: 1px solid var(--Grey2);
 }
@@ -41,8 +41,11 @@
 .container1{
     display: flex;
     align-items: center;
-    width: 76vw;
+    width: 50vw;
     margin: 0 auto;
+}
+.container2{
+    padding-right: 60px;
 }
 .valueBox{
     padding: 0 24px;

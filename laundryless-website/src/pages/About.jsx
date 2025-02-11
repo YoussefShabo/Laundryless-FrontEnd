@@ -42,14 +42,14 @@ const About = () => {
               <div className="textSection">
                 <h2>Our Story</h2>
                 <p className="C1paragraph">
-                  Welcome to Laundryless ATX, a women-owned business proudly
-                  based in the vibrant city of Austin, Texas. Our journey began
-                  with a simple idea: to transform the mundane chore of laundry
-                  into a convenient, reliable, and eco-friendly service that
-                  fits seamlessly into your busy lifestyle. Over the years,
-                  we've grown into a trusted partner for households and
-                  businesses alike, offering personalized care for your garments
-                  with the utmost dedication and professionalism.
+                  Welcome to Laundryless, a trusted laundry service designed to
+                  enhance convenience for both property managers and residents.
+                  Based in Austin, Texas, our journey began with a simple goal:
+                  to provide a seamless, reliable, and efficient laundry
+                  solution that adds value to residential communities. Over the
+                  years, we have become a preferred partner for multifamily
+                  properties, offering professional garment care with a
+                  commitment to quality and service excellence.
                 </p>
               </div>
             </div>
@@ -60,13 +60,14 @@ const About = () => {
               <div className="textSection">
                 <h2>Our Mission</h2>
                 <p className="C1paragraph">
-                  At Laundryless ATX, our mission is to redefine convenience in
-                  laundry services while championing sustainability. We aim to
-                  provide our customers with fast, reliable, and eco-friendly
-                  solutions, allowing you to focus on what truly matters. By
-                  integrating cutting-edge technology with a personal touch, we
-                  ensure that your laundry is handled with the care it deserves,
-                  delivered right to your doorstep.
+                  At Laundryless, our mission is to simplify laundry management
+                  for property managers while delivering unmatched convenience
+                  to residents. We provide fast, reliable, and hassle-free
+                  services that integrate seamlessly with your property's
+                  offerings. By combining advanced technology with personalized
+                  care, we ensure that every pickup and delivery enhances the
+                  tenant experience—helping you attract and retain satisfied
+                  residents with a premium amenity they'll love.
                 </p>
               </div>
             </div>
@@ -99,35 +100,38 @@ const About = () => {
               <div className="valueBox">
                 <h3>Quality</h3>
                 <p className="C1paragraph">
-                  We believe in delivering excellence in every aspect of our
-                  service. From the moment we pick up your laundry to the moment
-                  it's delivered back to you, we ensure the highest standards of
-                  quality and care.
+                  We are committed to delivering excellence in every aspect of
+                  our service. From pickup to delivery, we maintain the highest
+                  standards of care, ensuring residents receive
+                  professional-grade laundry service they can trust.
                 </p>
               </div>
               <div className="valueBox">
-                <h3>Sustainability</h3>
+                <h3>Reliability</h3>
                 <p className="C1paragraph">
-                  Our commitment to the environment is unwavering. We use
-                  energy-efficient cleaning processes and eco-friendly packaging
-                  to minimize our carbon footprint, striving to make a positive
-                  impact on the planet.
+                  We know that property managers need dependable service to keep
+                  operations running smoothly. Our team ensures consistent,
+                  on-time pickups and deliveries, making laundry an effortless
+                  amenity for your residents.
                 </p>
               </div>
               <div className="valueBox">
                 <h3>Community</h3>
                 <p className="C1paragraph">
-                  As a local business, we are deeply rooted in the Austin
-                  community. We take pride in supporting local initiatives and
-                  building strong relationships with our customers and partners.
+                  As a local business, we take pride in building strong
+                  partnerships with property managers and residential
+                  communities across Austin. Our goal is to enhance tenant
+                  satisfaction by providing a value-added service that residents
+                  appreciate.
                 </p>
               </div>
               <div className="valueBox">
                 <h3>Convenience</h3>
                 <p className="C1paragraph">
-                  Your time is valuable. Our services are designed to be as
-                  convenient as possible, offering flexible scheduling, easy
-                  online ordering, and timely deliveries to fit your busy life.
+                  We simplify laundry management for property managers with
+                  flexible scheduling, seamless integration into your property's
+                  services, and an easy-to-use online platform—so you can offer
+                  a hassle-free amenity without added complexity.
                 </p>
               </div>
             </div>

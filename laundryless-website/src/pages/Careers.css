@@ -1,0 +1,18 @@
+.careers{
+    width: 64vw;
+    margin: 200px auto;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 32vw;
+    padding-right: 80px ;
+}
+.img{
+    position: absolute;
+    right: 17.7vw;
+    width: 36vw;
+}

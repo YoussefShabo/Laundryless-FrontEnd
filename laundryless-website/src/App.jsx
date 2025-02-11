@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import HowItWorks from "./pages/HowItWorks";
 import Faq from "./pages/Faq";
+import Careers from "./pages/Careers";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
       <Footer />
     </Router>

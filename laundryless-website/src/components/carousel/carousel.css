@@ -1,0 +1,113 @@
+:root {
+  --Black: #282A28;
+  --Grey1: #272A2C;
+  --Grey2: #363E44;
+  --Grey3: #454E54;
+  --Grey4: #687B8D;
+  --Grey5: #919FA9;  
+  --Grey6: #D9D9D9;
+  --Grey7: #FAF9F4;
+  --Blue1: #2D3447;
+  --Blue2: #226E98;
+  --Blue3: #19C9EF;
+  --Red: #d64143;
+  --Logo: #FF5C58;
+  --lime-green: #A1DC97;
+  --darkerlime-green: #7AD46E;
+  --teal1: #5D9F9E;
+  --teal2: #177776;
+  --teal3: #32A4AA;
+}
+.carousel-container {
+  position: relative;
+  width: 100vw;
+  height: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.carousel-slide {
+  height: 1000px;
+  object-fit: contain;
+  flex-shrink: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide.active {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+/* Navigation Buttons */
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.carousel-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  pointer-events: auto;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.carousel-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+  z-index: 4;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.indicator.active {
+  background: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-container {
+    height: 300px;
+  }
+
+  .carousel-slide {
+    height: 300px;
+  }
+
+  .carousel-button {
+    padding: 8px;
+  }
+}

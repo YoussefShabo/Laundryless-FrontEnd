@@ -47,10 +47,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10%;
+    margin: 10% auto;
+    width: 50vw;
+
   }
   .stepImg{
-    width: 30vw;
+    width: 40%;
     margin: 2%;
     object-fit: cover;
     border-radius: 8px;

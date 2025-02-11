@@ -1,13 +1,62 @@
-.footer {
+:root {
+    --Black: #282A28;
+    --Grey1: #272A2C;
+    --Grey2: #363E44;
+    --Grey3: #454E54;
+    --Grey4: #687B8D;
+    --Grey5: #919FA9;  
+    --Grey6: #D9D9D9;
+    --Grey7: #FAF9F4;
+    --Blue1: #2D3447;
+    --Blue2: #226E98;
+    --Blue3: #19C9EF;
+    --Red: #d64143;
+    --Logo: #FF5C58;
+    --lime-green: #A1DC97;
+    --darkerlime-green: #7AD46E;
+    --teal1: #5D9F9E;
+    --teal2: #177776;
+    --teal3: #32A4AA;
+  }
+  .footer {
+    padding: 100px 0 0 0;
+
+}
+a{
+    text-decoration: none;
+    color: var(--Grey1);
+}
+.columns{
+    width: 60vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    width: 70vw;
-    margin: 20px 15vw;
+    
 }
-.round1{
-    margin: 10px 0;
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.columnRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.icons{
+    width: 30vw;
+    margin-left: 20vw;
+}
+.contact{
+    display: flex;
+    align-items: center;
+
+}
+.AAA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 @media (min-width: 769px) and (max-width: 970px) {
     .footer{

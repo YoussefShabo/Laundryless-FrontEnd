@@ -21,7 +21,7 @@ const HowItWorks = () => {
           <br />
           <h1 className="title">HOW IT WORKS: 3 SIMPLE STEPS</h1>
           <p className="subTitle">
-            learn how <img src={name} height={11} /> works at your concierge
+            learn how <img src={name} height={11} /> works for your residents
           </p>
         </center>
       </div>

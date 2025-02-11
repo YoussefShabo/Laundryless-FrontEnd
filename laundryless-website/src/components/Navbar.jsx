@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../assets/imgs/logoWhite.png";
-import Name from "../assets/imgs/nameWhite.png";
+import Logo from "../assets/imgs/Laundryless-Logo-inline.svg";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -34,8 +33,7 @@ const Navbar = () => {
   return (
     <nav className={`nav ${isMenuOpen ? "menu-open" : ""}`}>
       <div className="logo">
-        <img src={Name} alt="Name" style={{ height: "40px" }} />{" "}
-        <img src={Logo} alt="Logo" style={{ height: "40px" }} />{" "}
+        <img src={Logo} alt="Logo" style={{ height: "60px" }} />{" "}
       </div>
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <ul>
