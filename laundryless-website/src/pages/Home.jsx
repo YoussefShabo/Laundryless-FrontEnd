@@ -9,7 +9,6 @@ import ParallaxCarousel from "../components/carousel/carousel";
 const Home = () => {
   return (
     <div className="home">
-      <center></center>
       <div className="">
         <br />
         <br />
