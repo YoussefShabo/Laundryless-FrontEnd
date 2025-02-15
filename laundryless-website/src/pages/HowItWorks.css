@@ -84,6 +84,7 @@
   
     .screenshots {
       flex-direction: column;
+      margin: 0;
     }
   
     .screenshot {
