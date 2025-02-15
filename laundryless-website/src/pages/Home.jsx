@@ -30,6 +30,7 @@ const Home = () => {
           <br />
           <br />
           <br />
+
           <button className="Btn">
             <a
               style={{ textDecoration: "none", color: "#FAF9F4" }}
@@ -39,24 +40,38 @@ const Home = () => {
             </a>
           </button>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
+      <div
+        className="visionSection"
+        style={{ backgroundColor: "inherit", color: "#363E44" }}
+      >
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
-      <div className="serviceSection">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <hr className="aboutHr" />
         <br />
         <p className="vision">OUR SERVICE</p>
         <h1 className="titleText">
           Completely Self-Sufficient, <br />
           Absolutely Eco-Friendly!
         </h1>
-
-        <div className="serviceContainer">
+        <br />
+        <br />
+        <br />
+        <div className="container">
           <div className="serviceTextSection">
             <p>OPTIMIZED FOR EFFICIENCY</p>
             <div className="serviceData">
@@ -81,7 +96,6 @@ const Home = () => {
           <img src={customerLockers1} alt="" className="halfVWphoto" />
         </div>
       </div>
-
       <br />
       <br />
       <br />

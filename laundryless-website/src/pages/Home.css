@@ -175,10 +175,12 @@ padding-right: 60px;
   }
 
   .paragraph {
-      all: unset;
+      width: 85vw !important;
+      font-size: 12pt;
       color: var(--Grey2);
       text-shadow: none;
       text-align: left;
+      margin-left: 30px !important;
   }
 
   .Btn {
@@ -221,8 +223,8 @@ padding-right: 60px;
   }
 
   .halfVWphoto {
-      width: 100vw !important;
-      height: auto;
+      min-width: 100vw !important;
+      height: 100%;
       margin: 0;
   }
 
@@ -234,6 +236,7 @@ padding-right: 60px;
   }
   .serviceContainerTxt{
     text-align: left;
+    margin-left: 10px;
   }
 }
 
