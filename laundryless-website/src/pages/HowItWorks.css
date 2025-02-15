@@ -73,9 +73,13 @@
     font-weight: 900;
   }
   @media (max-width: 768px) {
+    .title{
+      font-size: 18pt;
+    }
     .stepBox {
       flex-direction: column;
       width: 95vw;
+      align-items: flex-start;
     }
   
     .screenshots {
@@ -87,25 +91,33 @@
       margin: 20px auto;
     }
   
-    .text {
-      margin: 0 auto;
-      order: 1; /* Ensures text appears first */
-    }
+
   
     .stepImg {
       width: 95vw;
-      order: 2; /* Ensures image appears after text */
+      order: 2;
+      margin: 0;
     }
-  
+    .text {
+      margin: 10px;
+      order: 1;
+
+    }
     .text p {
       margin-left: 0px;
       width: 95vw;
+
     }
   
     .text h1 {
       width: 95vw;
       font-size: 22pt;
       margin-left: 0;
+      font-size: 14pt;
+    }
+    .CCtext{
+      font-size: 14pt;
+      margin-top: 10vh;
     }
   }
   
