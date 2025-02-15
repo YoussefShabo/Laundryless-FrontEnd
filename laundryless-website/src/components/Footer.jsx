@@ -126,9 +126,7 @@ const Footer = () => {
           />
         </div>
         <hr style={{ width: "64vw" }} />
-        <h6 style={{ marginLeft: "20vw", marginTop: "0px" }}>
-          © Three Schmucks LLC 2024-2025. All rights reserved.
-        </h6>
+        <h6>© Three Schmucks LLC 2024-2025. All rights reserved.</h6>
       </div>
     </>
   );
