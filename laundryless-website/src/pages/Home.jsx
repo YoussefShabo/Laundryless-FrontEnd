@@ -18,7 +18,7 @@ const Home = () => {
         <div className="heroText">
           <br />
           <br />
-          <p className="heroTitle">The Future of Laundry Is Here</p>
+          <p className="heroTitle">The Future of Laundry Is Here - TEST</p>
           <br />
           <br />
           <p className="paragraph">
