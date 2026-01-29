@@ -15,7 +15,7 @@ import decalLocker4 from "../assets/imgs/lockers4.webp";
 import example1 from "../assets/imgs/The Speedy Bubble.jpeg";
 import example2 from "../assets/imgs/neighborhoodcleaners_img1.jpg";
 import example3 from "../assets/imgs/neighborhoodcleaners_img2.jpg";
-import example4 from "../assets/imgs/Washed Again 1.jpg";
+import example4 from "../assets/imgs/Washed Again 1.JPG";
 
 const About = () => {
   return (
